@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView
+        android:id="@+id/eid"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" 
+        android:hint="id" />
+    <TextView
+        android:id="@+id/ename"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="13dip"
+        android:paddingLeft="20dip"
+        android:textSize="17sp"
+        android:minHeight="50dp"
+        android:textStyle="bold"
+        android:hint="Event Name" />
+</LinearLayout>
